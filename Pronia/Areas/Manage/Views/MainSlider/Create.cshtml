@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "Main Slide Create";
+}
+
+
+@model MainSlider
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-11">
+			<h5>Create Main Slider item</h5>
+			<form class="user" method="post" >
+				<div class="form-group row">
+					<div class="col-sm-4 mb-sm-2">
+						<input asp-for="Offer" type="number" class="form-control form-control-user"
+							   placeholder="Offer Percent">
+						<span asp-validation-for="Offer"></span>
+					</div>
+					<div class="col-sm-4 mb-sm-2">
+						<input asp-for="Title" type="text" class="form-control form-control-user"
+							   placeholder="Title">
+						<span asp-validation-for="Title"></span>
+
+					</div>
+					<div class="col-sm-4 mb-sm-2">
+						<input asp-for="BtnText" type="text" class="form-control form-control-user"
+							   placeholder="Button Text">
+						<span asp-validation-for="BtnText"></span>
+
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-6 mb-sm-2">
+						<input asp-for="ShortDesc" type="text" class="form-control form-control-user"
+							   placeholder="Short Description">
+						<span asp-validation-for="ShortDesc"></span>
+
+					</div>
+					<div class="col-sm-6">
+						<input asp-for="Image" type="text" class="form-control form-control-user"
+							   placeholder="Image">
+						<span asp-validation-for="Image"></span>
+
+					</div>
+				</div>
+				
+
+				<div class="row justify-content-center">
+
+					<div class="col-lg-5 col-sm-12 col-md-10 ">
+
+						<button type="submit" class="btn btn-primary btn-user btn-block">
+							Create
+						</button>
+						<hr>
+						<a asp-action="Index" asp-controller="MainSlider" class="btn btn-google btn-user btn-block">
+							Cancel
+						</a>
+					</div>
+				</div>
+
+			</form>
+
+		</div>
+	</div>
+</div>
+
+
+
