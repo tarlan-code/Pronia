@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Code Academy\Asp.NET\Pronia\Pronia
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Code Academy/Asp.NET/Pronia/Pronia/Areas/Manage/Views/Brands/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEJyYW5kc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code Academy/Asp.NET/Pronia/Pronia/Areas/Manage/Views/Brands/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEJyYW5kc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code Academy/Asp.NET/Pronia/Pronia/Areas/Manage/Views/Brands/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEJyYW5kc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Code Academy/Asp.NET/Pronia/Pronia/Areas/Manage/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

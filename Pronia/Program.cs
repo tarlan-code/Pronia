@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Pronia.DAL;
+using Pronia.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(opt =>
